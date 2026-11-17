@@ -859,7 +859,34 @@ Package ()
                     "CLOCK",
                     Package ()
                     {
+                        "mdss_0_disp_cc_mdss_rscc_vsync_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
                         "mdss_0_disp_cc_mdss_rscc_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_vsync_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
                         0x0000000000000002,
                     },
                 },
@@ -932,7 +959,34 @@ Package ()
                     "CLOCK",
                     Package ()
                     {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_vsync_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
                         "mdss_0_disp_cc_mdss_rscc_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rscc_vsync_clk",
                         0x0000000000000001,
                     },
                 },
@@ -960,7 +1014,34 @@ Package ()
                     "CLOCK",
                     Package ()
                     {
+                        "mdss_0_disp_cc_mdss_rscc_vsync_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
                         "mdss_0_disp_cc_mdss_rscc_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_vsync_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
                         0x0000000000000002,
                     },
                 },
@@ -1168,7 +1249,34 @@ Package ()
                     "CLOCK",
                     Package ()
                     {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_vsync_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
                         "mdss_0_disp_cc_mdss_rscc_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rscc_vsync_clk",
                         0x0000000000000001,
                     },
                 },
@@ -1267,6 +1375,17 @@ Package ()
                 0x0000000000000000,
                 Package ()
                 {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x000000001B6B0B00,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
                     "BUSARB",
                     Package ()
                     {
@@ -1282,6 +1401,17 @@ Package ()
             {
                 "PSTATE",
                 0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x0000000014904840,
+                        0x0000000000000001,
+                    },
+                },
                 Package ()
                 {
                     "BUSARB",
@@ -1301,6 +1431,17 @@ Package ()
                 0x0000000000000002,
                 Package ()
                 {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
                     "BUSARB",
                     Package ()
                     {
@@ -1316,6 +1457,17 @@ Package ()
             {
                 "PSTATE",
                 0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x000000000BEBC200,
+                        0x0000000000000001,
+                    },
+                },
                 Package ()
                 {
                     "BUSARB",
@@ -1335,6 +1487,17 @@ Package ()
                 0x0000000000000004,
                 Package ()
                 {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x0000000008F0D180,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
                     "BUSARB",
                     Package ()
                     {
@@ -1350,6 +1513,17 @@ Package ()
             {
                 "PSTATE",
                 0x0000000000000005,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x0000000005F5E100,
+                        0x0000000000000001,
+                    },
+                },
                 Package ()
                 {
                     "BUSARB",
@@ -1369,6 +1543,17 @@ Package ()
                 0x0000000000000006,
                 Package ()
                 {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x00000000051BE56E,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
                     "BUSARB",
                     Package ()
                     {
@@ -1386,6 +1571,17 @@ Package ()
                 0x0000000000000007,
                 Package ()
                 {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
                     "BUSARB",
                     Package ()
                     {
@@ -1401,6 +1597,17 @@ Package ()
             {
                 "PSTATE",
                 0x0000000000000008,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x0000000000000000,
+                        0x0000000000000001,
+                    },
+                },
                 Package ()
                 {
                     "BUSARB",
@@ -2438,6 +2645,42 @@ Package ()
                     "CLOCK",
                     Package ()
                     {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_vsync_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rscc_vsync_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
                         "mdss_0_disp_cc_mdss_rscc_ahb_clk",
                         0x0000000000000002,
                     },
@@ -2517,7 +2760,43 @@ Package ()
                     "CLOCK",
                     Package ()
                     {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_vsync_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
                         "mdss_0_disp_cc_mdss_rscc_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rscc_vsync_clk",
                         0x0000000000000001,
                     },
                 },
@@ -2565,6 +2844,42 @@ Package ()
                     {
                         0x0000000000000003,
                         0x0000000000000037,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_vsync_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rscc_vsync_clk",
+                        0x0000000000000002,
                     },
                 },
                 Package ()
@@ -2795,7 +3110,43 @@ Package ()
                     "CLOCK",
                     Package ()
                     {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_mdp_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_vsync_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
                         "mdss_0_disp_cc_mdss_rscc_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rscc_vsync_clk",
                         0x0000000000000001,
                     },
                 },
@@ -2957,6 +3308,17 @@ Package ()
                 0x0000000000000000,
                 Package ()
                 {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000003,
+                        0x000000001B6B0B00,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
                     "BUSARB",
                     Package ()
                     {
@@ -2972,6 +3334,17 @@ Package ()
             {
                 "PSTATE",
                 0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000003,
+                        0x0000000014904840,
+                        0x0000000000000001,
+                    },
+                },
                 Package ()
                 {
                     "BUSARB",
@@ -2991,6 +3364,17 @@ Package ()
                 0x0000000000000002,
                 Package ()
                 {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
                     "BUSARB",
                     Package ()
                     {
@@ -3006,6 +3390,17 @@ Package ()
             {
                 "PSTATE",
                 0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000003,
+                        0x000000000BEBC200,
+                        0x0000000000000001,
+                    },
+                },
                 Package ()
                 {
                     "BUSARB",
@@ -3025,6 +3420,17 @@ Package ()
                 0x0000000000000004,
                 Package ()
                 {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
                     "BUSARB",
                     Package ()
                     {
@@ -3040,6 +3446,17 @@ Package ()
             {
                 "PSTATE",
                 0x0000000000000005,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "mdss_0_disp_cc_mdss_rot_clk",
+                        0x0000000000000003,
+                        0x0000000000000000,
+                        0x0000000000000001,
+                    },
+                },
                 Package ()
                 {
                     "BUSARB",
@@ -12671,7 +13088,7 @@ Package ()
         {
             "PSTATE",
             0x0000000000000000,
-            0x000000001DCD6500,
+            0x000000001B6B0B00,
             0x0000000000000001,
             Package ()
             {
@@ -12683,7 +13100,7 @@ Package ()
         {
             "PSTATE",
             0x0000000000000001,
-            0x00000000165A0BC0,
+            0x0000000014904840,
             0x0000000000000002,
             Package ()
             {
@@ -12743,7 +13160,7 @@ Package ()
         {
             "PSTATE",
             0x0000000000000006,
-            0x00000000051BD4B0,
+            0x00000000051BE56E,
             0x0000000000000003,
             Package ()
             {
@@ -13565,7 +13982,7 @@ Package ()
         {
             "PSTATE",
             0x0000000000000000,
-            0x000000001DCD6500,
+            0x000000001B6B0B00,
             0x0000000000000001,
             Package ()
             {
@@ -13577,7 +13994,7 @@ Package ()
         {
             "PSTATE",
             0x0000000000000001,
-            0x00000000165A0BC0,
+            0x0000000014904840,
             0x0000000000000002,
             Package ()
             {
